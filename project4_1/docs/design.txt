@@ -1,0 +1,25 @@
+Refer to the comments in the process.c and memmory.h and memmory.c
+
+
+memory.c:
+the defininitions modified to support 8k page entry size, and modified # of L1 page table entries to 256.
+Default values are noted.
+
+What we need to do now should be in process.c
+
+
+process.c
+In PageFaultHandler()
+We implemente a TRAP to the kernel TRAP_PAGEFAULT through ProcessKill().
+We also check if we run out of memory by checking if we have more than 16 virtual memory pages. If we do, we kill the process [ProcessKill()]
+We also check if memory was allocated correctly. If it was not, we also kill the process. [ProcessKill()]
+We also allocate a new page (newPage).
+We then prorceed to fix teh page table.
+Finally we print out our report.
+
+In ProcessKill()
+We remove process from queue.
+Then we free process resources.
+Finally, we finally destroy the process.
+
+

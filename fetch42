@@ -1,0 +1,1 @@
+rsync -r /home/gobby/export/cs314/proj4/project4_2/src/ /home/gobby/project4/project4_2/src

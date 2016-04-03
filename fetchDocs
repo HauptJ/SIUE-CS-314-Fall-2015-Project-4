@@ -1,0 +1,3 @@
+#rsync -r /home/gobby/export/cs314/proj4/project4_1/docs/ /home/gobby/project4/project4_1/docs 
+rsync -r /home/gobby/export/cs314/proj4/project4_2/docs/ /home/gobby/project4/project4_2/docs
+rsync -r /home/gobby/export/cs314/proj4/docs/ /home/gobby/project4/docs

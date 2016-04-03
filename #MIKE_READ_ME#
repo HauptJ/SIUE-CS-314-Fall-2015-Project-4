@@ -1,0 +1,20 @@
+to update the project4 directory from the repository use:
+git pull
+
+to push updates to the repository use:
+git add *
+git commit -m "some shit"
+git push origin master
+
+Gobby has been updated with the latest code so far. To sync from Gobby 
+login gobby@146.163.146.206 port 2222
+
+under the project4 directory use ./fetch41 for part 4.1
+and ./fetch42 for part 4.2
+
+then sync the repository use the commands above
+
+optional: have fun with git.
+
+I have added the ssh keys to the repository under your .ssh directory.
+You do not need to worry about them.

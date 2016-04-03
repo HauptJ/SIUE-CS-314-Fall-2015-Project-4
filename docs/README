@@ -1,0 +1,11 @@
+HI :)
+
+4.1 note:
+Running in the /execs directory, just run ./41run and be happy.
+
+4.2 note:
+Running userprog1 and userprog2 directly (eg, dlxsim -m 16777216 -x os.dlx.obj 
+-a -u userprog2.dlx.obj) returns the correct output. However, we were unable to
+run userprog.dlx.obj with a numbered parameter, as it failed to recognize the
+input.
+

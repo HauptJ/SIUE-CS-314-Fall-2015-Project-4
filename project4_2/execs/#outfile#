@@ -1,0 +1,61 @@
+Hi Uday, How are you?
+Got 2 arguments.
+Available memory: 0x14fbc -> 0x200000.
+Argument count is 2.
+Argument 0 is -u.
+Argument 1 is userprog.dlx.obj.
+Memory Translate = PCB:12dc8, L1Page:0, L2Page:1, Offset:0
+Memory Translate = PCB:12dc8, L1Page:0, L2Page:1, Offset:20
+Memory Translate = PCB:12dc8, L1Page:0, L2Page:1, Offset:32
+Memory Translate = PCB:12dc8, L1Page:0, L2Page:1, Offset:44
+Memory Translate = PCB:12dc8, L1Page:0, L2Page:1, Offset:64
+Memory Translate = PCB:12dc8, L1Page:0, L2Page:1, Offset:84
+Memory Translate = PCB:12dc8, L1Page:0, L2Page:0, Offset:4096
+Memory Translate = PCB:12dc8, L1Page:0, L2Page:0, Offset:4172
+Memory Translate = PCB:12dc8, L1Page:0, L2Page:0, Offset:4252
+Memory Translate = PCB:12dc8, L1Page:0, L2Page:0, Offset:4332
+Memory Translate = PCB:12dc8, L1Page:0, L2Page:0, Offset:4412
+Memory Translate = PCB:12dc8, L1Page:0, L2Page:0, Offset:4492
+Memory Translate = PCB:12dc8, L1Page:0, L2Page:0, Offset:4572
+Memory Translate = PCB:12dc8, L1Page:0, L2Page:0, Offset:4652
+Memory Translate = PCB:12dc8, L1Page:0, L2Page:0, Offset:4732
+Memory Translate = PCB:12dc8, L1Page:0, L2Page:0, Offset:4812
+Memory Translate = PCB:12dc8, L1Page:0, L2Page:0, Offset:4892
+Memory Translate = PCB:12dc8, L1Page:0, L2Page:0, Offset:4972
+Memory Translate = PCB:12dc8, L1Page:0, L2Page:0, Offset:5052
+Memory Translate = PCB:12dc8, L1Page:0, L2Page:0, Offset:5132
+Memory Translate = PCB:12dc8, L1Page:0, L2Page:0, Offset:5212
+Memory Translate = PCB:12dc8, L1Page:0, L2Page:0, Offset:5292
+Memory Translate = PCB:12dc8, L1Page:0, L2Page:0, Offset:5372
+Memory Translate = PCB:12dc8, L1Page:0, L2Page:0, Offset:5452
+Memory Translate = PCB:12dc8, L1Page:0, L2Page:0, Offset:5532
+Memory Translate = PCB:12dc8, L1Page:0, L2Page:0, Offset:5612
+Memory Translate = PCB:12dc8, L1Page:0, L2Page:0, Offset:5692
+Memory Translate = PCB:12dc8, L1Page:0, L2Page:0, Offset:5772
+Memory Translate = PCB:12dc8, L1Page:0, L2Page:0, Offset:5852
+Memory Translate = PCB:12dc8, L1Page:0, L2Page:0, Offset:5932
+Memory Translate = PCB:12dc8, L1Page:0, L2Page:0, Offset:6012
+Memory Translate = PCB:12dc8, L1Page:0, L2Page:0, Offset:6092
+Memory Translate = PCB:12dc8, L1Page:0, L2Page:0, Offset:6172
+Memory Translate = PCB:12dc8, L1Page:0, L2Page:0, Offset:6252
+Memory Translate = PCB:12dc8, L1Page:0, L2Page:0, Offset:6332
+Memory Translate = PCB:12dc8, L1Page:0, L2Page:0, Offset:6412
+Memory Translate = PCB:12dc8, L1Page:0, L2Page:0, Offset:6492
+Memory Translate = PCB:12dc8, L1Page:0, L2Page:0, Offset:6572
+Memory Translate = PCB:12dc8, L1Page:0, L2Page:0, Offset:6652
+Memory Translate = PCB:12dc8, L1Page:0, L2Page:0, Offset:6732
+Memory Translate = PCB:12dc8, L1Page:0, L2Page:0, Offset:6812
+Memory Translate = PCB:12dc8, L1Page:0, L2Page:0, Offset:6892
+Memory Translate = PCB:12dc8, L1Page:0, L2Page:0, Offset:6972
+Memory Translate = PCB:12dc8, L1Page:0, L2Page:0, Offset:7052
+Memory Translate = PCB:12dc8, L1Page:0, L2Page:0, Offset:7132
+We made it to the page fault handlerPID:%	Page Fault Address%	Physical Page:-31|16769024
+Memory Translate = PCB:12dc8, L1Page:0, L2Page:0, Offset:0
+Memory Translate = PCB:12dc8, L1Page:0, L2Page:0, Offset:0
+Memory Translate = PCB:12dc8, L1Page:0, L2Page:0, Offset:0
+No runnable processes - exiting!
+Exiting at program request.
+Instructions executed: 1122257
+Time simulated: 1.122 secs
+Real time elapsed: 0.071 secs
+Execution rate: 15.86M simulated instructions per real second.

@@ -1,0 +1,33 @@
+4.2
+
+We implemented changes in the following files and functions:
+
+Memory.h - definitions
+This header file required changing a number of definitions and constants for use
+in memory.c. Specifically, we changed the number of bits allocated to L1 and L2
+page entries, the maximum number of entries for each of these page tables, the
+size of a page, and masks for each PTE bit, and a mask to remove them. (I think
+that's all we changed.)
+
+Memory.c - MemoryTranslateUserToSystem
+In this function we changed the way the system translated a logical address into
+a system address with a multi-level page table. Specifically, we calculated the
+L1 page, L2 page, and offset for the address, checked if the system would be 
+unable to allocate this page (if it was out of memory), and set of an L2 page
+table with these values.
+
+Process.c - ProcessFork
+We changed the way that DLXOS allocates memory pages. Each process was given 4
+pages for its memory (3 for actual text and data, and 1 for the user stack.) The
+system was given 1 pagefor the system stack. Stacks were allocated at the top of
+the L1 table, in the last L2 page, and allowed to grow downward.
+
+Process.c - ProcessKill
+We added ProcessDestroy here to eliminate an infinite loop bug[feature].
+
+Process.c - PageFaultHandler
+We implemented new page allocation using the currentPCB. To do this, we
+calculated the L1 and L2 page tables for the faulting address, and created a new
+memory page for 1 L1 table and another memory page for the L2 page table entry.
+We add this L2 page table entry to the L2 page table, increment the PCBs npages
+counter, and printf report the data.

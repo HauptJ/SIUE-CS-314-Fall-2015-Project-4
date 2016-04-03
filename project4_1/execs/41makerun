@@ -1,0 +1,2 @@
+git pull && cd ../src && make && cd ../execs && dlxsim -m 16777216 -x os.dlx.obj -a -u userprog2.dlx.obj
+

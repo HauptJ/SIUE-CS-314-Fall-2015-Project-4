@@ -1,0 +1,29 @@
+Josh:
+Responsiblities:
+Logic and planning for part 1.
+Review of part 2.
+Physical coding for part 1.
+Also technical help with git repository.
+
+Mike:
+Responsibilities:
+Logic and planning for part 2.
+Review of part 1.
+Did physical coding for part 2.
+Very helpful. 
+
+Brock:
+Responsibilities:
+Logic andplanning fpr part 2.
+Review of part 1.
+Presented logic and ideas for both part 1 and 2.
+Very helpful.
+
+Tools:
+Git - repository to sync files between each other.
+Very useful.
+Gobby - collaborative text editor used to pair program.
+Very useful.
+
+Our method of reviewing each others work and utiizing each other's strengths greatly helped us complete this
+project.
